@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": "dados_avaliacao",
+      "label": "Dados da avaliação",
+      "elements": [
+        {
+          "id": "resumo",
+          "label": "Resumo da Avaliação",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["DEFAULT"]
+          }
+        },
+        {
+          "id": "conforme",
+          "label": "Conforme",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["NUMBER", "PERCENT"]
+          }
+        },
+        {
+          "id": "inconforme",
+          "label": "Não Conformidade",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["NUMBER", "PERCENT"]
+          }
+        }
+      ]
+    }
+  ],
+  "style": [],
+  "interactions": [
+    {
+      "id": "filtro_avaliacao",
+      "supportedActions": ["FILTER"]
+    }
+  ]
+}
