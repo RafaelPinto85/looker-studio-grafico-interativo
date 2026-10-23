@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#grafico {
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  overflow: auto;
+}
+
+#grafico svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#grafico rect {
+  transition: opacity 0.15s ease-in-out;
+}
+
+#grafico g:hover rect {
+  opacity: 0.85;
+}
+
+#grafico text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
