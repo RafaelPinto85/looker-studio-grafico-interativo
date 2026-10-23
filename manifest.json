@@ -1,0 +1,26 @@
+{
+  "name": "Gráfico Interativo de Avaliações",
+  "organization": "Projeto Personalizado",
+  "description": "Gráfico de barras empilhadas com filtragem cruzada para o Looker Studio",
+  "logoUrl": "https://www.gstatic.com/images/branding/product/1x/data_studio_48dp.png",
+  "packageUrl": "https://github.com/RafaelPinto85/looker-studio-grafico-interativo",
+  "supportUrl": "https://github.com/RafaelPinto85/looker-studio-grafico-interativo/issues",
+  "privacyPolicyUrl": "https://policies.google.com/privacy",
+  "termsOfServiceUrl": "https://policies.google.com/terms",
+  "devMode": true,
+  "components": [
+    {
+      "id": "avaliacoes_interativas",
+      "name": "Avaliações Interativas",
+      "description": "Barras empilhadas com filtros interativos",
+      "iconUrl": "https://www.gstatic.com/images/branding/product/1x/data_studio_48dp.png",
+      "infoUrl": "https://github.com/RafaelPinto85/looker-studio-grafico-interativo",
+      "resource": {
+        "js": "viz.js",
+        "config": "config.json",
+        "css": "style.css",
+        "html": "viz.html"
+      }
+    }
+  ]
+}
